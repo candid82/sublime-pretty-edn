@@ -1,0 +1,6 @@
+[
+  {
+    "caption": "Pretty EDN: Format EDN",
+    "command": "ednpprint"
+  }
+]

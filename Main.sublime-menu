@@ -1,0 +1,38 @@
+[
+  {
+    "mnemonic": "n",
+    "caption": "Preferences",
+    "id": "preferences",
+    "children": [
+      {
+        "mnemonic": "P",
+        "caption": "Package Settings",
+        "id": "package-settings",
+        "children": [
+          {
+            "caption": "Pretty EDN",
+            "children": [
+              {
+                "caption": "Settings – Default",
+                "command": "open_file",
+                "args": {
+                  "file": "${packages}/ednpprint/ednpprint.sublime-settings"
+                }
+              },
+              {
+                "caption": "Settings – User",
+                "command": "open_file",
+                "args": {
+                  "file": "${packages}/User/ednpprint.sublime-settings"
+                }
+              },
+              {
+                "caption": "-"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
