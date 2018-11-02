@@ -96,7 +96,7 @@ class Formatter(object):
         if self.encoding == 'Undefined':
             self.encoding = 'utf-8'
         self.window = view.window()
-        cmds = settings.get('cmds', ["joker", "--hashmap-threshold", "-1", "-e", "(pprint (read))"]) or []
+        cmds = settings.get('cmds', ["joker", "--hashmap-threshold", "99999999", "-e", "(pprint (read))"]) or []
         self.cmds = [Command(cmd, self.view, self.window) for cmd in cmds]
 
     def format(self, region):

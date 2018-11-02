@@ -1,6 +1,6 @@
 {
   "cmds": [
-    ["joker", "--hashmap-threshold", "-1", "-e", "(pprint (read))"]
+    ["joker", "--hashmap-threshold", "99999999", "-e", "(pprint (read))"]
   ],
   "format_on_save": false
 }
